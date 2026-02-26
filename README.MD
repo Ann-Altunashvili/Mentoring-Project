@@ -39,4 +39,4 @@
 * **Responsive Design** - სხვადასხვა ზომის ეკრანებზე მორგება.
 
 ---
-![Alt aaa](SC.png)
+![Alt](SC.png)

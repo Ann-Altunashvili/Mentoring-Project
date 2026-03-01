@@ -35,14 +35,13 @@ body {
   line-height: 1.6;
 }
 
+.container {
+  padding: 0 100px;
+}
+
 /* =========================
    REVIEW SECTION
 ========================= */
-.review .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
 .review .section-header {
   text-align: center;
   margin-bottom: 60px;

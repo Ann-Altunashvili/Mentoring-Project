@@ -118,6 +118,26 @@ body {
   font-size: 14px;
   color: #555;
 }
+.review .arrows-responsive {
+  display: none;
+  margin-top: 60px;
+}
+.review .arrows-responsive button {
+  padding: 8px 12px 8px 12px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #052a44;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.review .arrows-responsive button:hover {
+  opacity: 0.85;
+}
 .review .arrows {
   margin-top: 60px;
   display: flex;
@@ -247,6 +267,11 @@ footer .footer-bottom {
 /* =========================
    RESPONSIVE
 ========================= */
+@media (max-width: 1150px) {
+  .contact-card {
+    padding: 50px;
+  }
+}
 @media (max-width: 992px) {
   .container {
     padding: 0 40px;
@@ -263,15 +288,30 @@ footer .footer-bottom {
     text-align: center;
   }
 }
-@media (max-width: 600px) {
-  .reviews-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 720px) {
+  .review .section-header {
+    text-align: center;
+    margin-bottom: 40px;
   }
-  .container {
-    padding: 0 20px;
-  }
-  .contact .contact-header h2 {
+  .review .section-header h2 {
     font-size: 28px;
+    font-weight: 400;
+    color: #183b56;
+    margin-bottom: 16px;
+  }
+  .review .section-header p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #183b56;
+  }
+  .review .reviews-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .review .arrows {
+    display: none;
+  }
+  .review .arrows-responsive {
+    display: block;
   }
 }
 

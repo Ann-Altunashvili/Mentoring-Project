@@ -160,6 +160,27 @@ body {
     }
   }
 
+  .arrows-responsive {
+    display: none;
+    margin-top: 60px;
+
+    button {
+      padding: 8px 12px 8px 12px;
+      color: $white;
+      font-size: 14px;
+      background-color: $dark-blue;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      @include flex-center;
+      transition: 0.3s;
+
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+  }
+
   .arrows {
     margin-top: 60px;
     @include flex-center;
@@ -302,6 +323,13 @@ footer {
 /* =========================
    RESPONSIVE
 ========================= */
+
+@media (max-width: 1150px) {
+  .contact-card {
+    padding: 50px;
+  }
+}
+
 @media (max-width: 992px) {
   .container {
     padding: 0 40px;
@@ -322,16 +350,34 @@ footer {
   }
 }
 
-@media (max-width: 600px) {
-  .reviews-grid {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 720px) {
+  .review {
+    .section-header {
+      text-align: center;
+      margin-bottom: 40px;
 
-  .container {
-    padding: 0 20px;
-  }
+      h2 {
+        font-size: 28px;
+        font-weight: 400;
+        color: #183b56;
+        margin-bottom: 16px;
+      }
 
-  .contact .contact-header h2 {
-    font-size: 28px;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #183b56;
+      }
+    }
+    .reviews-grid {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .arrows {
+      display: none;
+    }
+    .arrows-responsive {
+      display: block;
+    }
   }
 }

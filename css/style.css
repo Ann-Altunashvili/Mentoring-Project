@@ -35,17 +35,13 @@ body {
   line-height: 1.6;
 }
 
+.container {
+  padding: 0 100px;
+}
+
 /* =========================
    REVIEW SECTION
 ========================= */
-.review {
-  padding: 80px 0;
-}
-.review .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
 .review .section-header {
   text-align: center;
   margin-bottom: 60px;
@@ -129,14 +125,14 @@ body {
 /* =========================
    CONTACT SECTION
 ========================= */
-.yellow-card {
-  padding: 40px 32px 40px 32px;
-}
-
 .contact-conteiner {
   background-color: #e8db84;
   max-width: auto;
   border-radius: 29px;
+  padding: 0 180px;
+}
+.contact-conteiner .yellow-card {
+  padding: 40px 32px 40px 32px;
 }
 .contact-conteiner .card-header {
   text-align: center;
@@ -199,6 +195,9 @@ body {
 /* =========================
    FOOTER
 ========================= */
+footer {
+  margin-top: 80px;
+}
 footer .footer-top {
   display: flex;
   justify-content: space-between;

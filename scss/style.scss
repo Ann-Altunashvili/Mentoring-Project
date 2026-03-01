@@ -149,15 +149,15 @@ body {
    CONTACT SECTION
 ========================= */
 
-.yellow-card {
-  padding: 40px 32px 40px 32px;
-}
-
 .contact-conteiner {
   background-color: $yellow-bg;
   max-width: auto;
   border-radius: 29px;
+  padding: 0 180px;
 
+  .yellow-card {
+    padding: 40px 32px 40px 32px;
+  }
   .card-header {
     text-align: center;
   }
@@ -225,6 +225,7 @@ body {
 ========================= */
 
 footer {
+  margin-top: 80px;
   .footer-top {
     display: flex;
     justify-content: space-between;

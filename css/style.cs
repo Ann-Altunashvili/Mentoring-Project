@@ -38,9 +38,6 @@ body {
 /* =========================
    REVIEW SECTION
 ========================= */
-.review {
-  padding: 80px 0;
-}
 .review .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -244,4 +241,4 @@ footer .footer-bottom {
    RESPONSIVE
 ========================= */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */

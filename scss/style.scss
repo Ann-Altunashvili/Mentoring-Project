@@ -35,7 +35,6 @@ $text-black: #000000;
 $white: #ffffff;
 $poppins: "Poppins", sans-serif;
 $gray-text: #666;
-$light-gray: #f8f8f8;
 
 body {
   font-family: $poppins;
@@ -47,8 +46,6 @@ body {
    REVIEW SECTION
 ========================= */
 .review {
-  padding: 80px 0;
-  background: $light-gray;
 
   .container {
     max-width: 1200px;
